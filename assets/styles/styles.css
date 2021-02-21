@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat&family=Noto+Sans+SC&family=Nunito&family=Open+Sans&family=Poppins&family=Roboto+Mono&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  position: relative;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Fira Code', monospace;
+}
+
+body {
+  height: 100%;
+  font-family: 'Fira Code', monospace;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Noto Sans SC', sans-serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner-bg {
+  background-image: url("../images/background.svg");
+  height: 100vh;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.banner-bg header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner-bg header .logo {
+  height: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #0f77ff;
+  -webkit-box-shadow: 0px 13px 20px rgba(15, 119, 255, 0.33);
+          box-shadow: 0px 13px 20px rgba(15, 119, 255, 0.33);
+  width: auto;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0 0 3px 3px;
+  margin-right: 50px;
+  padding: 0 5px;
+}
+
+.banner-bg header nav ul {
+  list-style: none;
+}
+
+.banner-bg header nav ul li {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.banner-bg header nav ul li a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #636b75;
+  font-size: 16px;
+}
+
+.banner-bg header nav ul li a:hover {
+  color: #0f77ff;
+}
+
+.banner-bg section .search-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 55%;
+  margin: 0px 0;
+  margin-top: 100px;
+}
+
+.banner-bg section .search-container .search-header {
+  color: #363637;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.banner-bg section .search-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 30px 0 25px 0;
+}
+
+.banner-bg section .search-container form .text-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0px 20px;
+  border-radius: 5px 0 0 5px;
+  background: #ffffff;
+  width: 100%;
+}
+
+.banner-bg section .search-container form .text-input .form-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border: 0px solid #000;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: #ffffff;
+}
+
+.banner-bg section .search-container form .text-input .form-btn-container button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  outline: none;
+}
+
+.banner-bg section .search-container form .text-input .form-btn-container button .svg-container {
+  cursor: pointer;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffffff;
+}
+
+.banner-bg section .search-container form .text-input .form-btn-container button .svg-container svg {
+  vertical-align: middle;
+}
+
+.banner-bg section .search-container form .text-input label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0px solid #000;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.banner-bg section .search-container form .text-input label input {
+  width: 100%;
+  border: 0px solid #000;
+  outline: none;
+  margin: 0px 5px;
+  padding: 20px 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.banner-bg section .search-container form .form-btn input {
+  height: 100%;
+  background-color: #0f77ff;
+  border: 0px solid #000;
+  outline: none;
+  padding: 20px 20px;
+  border-radius: 0 5px 5px 0;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.banner-bg section .search-container .service-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner-bg section .search-container .service-option button {
+  border-radius: 100vh;
+  padding: 5px 10px;
+  border: 1px solid #fdfcfa;
+  width: 100%;
+  height: 100%;
+  background: #fdfcfa;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+  color: #a1a9b3;
+  font-size: 13px;
+  outline: none;
+  cursor: pointer;
+}
+
+.banner-bg .main {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 0;
+}
+
+.banner-bg .main .main-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.banner-bg .main .main-categories .category-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.banner-bg .main .main-categories .category-select a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #a1a9b3;
+}
+
+.banner-bg .main .main-categories .category-select a:hover {
+  color: #0f77ff;
+}
+
+.banner-bg .main .main-categories .category-select a .category-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border: 0px solid #000;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font: inherit;
+  vertical-align: baseline;
+  margin-right: 10px;
+}
+
+.banner-bg .main .main-categories .category-select a .category-btn button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  outline: none;
+}
+
+.banner-bg .main .main-categories .category-select a .category-btn button .svg-container {
+  cursor: pointer;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */
